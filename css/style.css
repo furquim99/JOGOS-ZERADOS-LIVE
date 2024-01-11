@@ -82,7 +82,7 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         /* aqui que muda as colunas e quantas vão */
-        grid-template-rows: repeat(4, 200px);
+        grid-template-rows: repeat(6, 200px);
         margin-top: 100px;
         column-gap: 20px;
         row-gap: 20px;
@@ -117,6 +117,18 @@
     }
     .library .item:nth-child(6){
         background-image: url(../img/cv64.png);
+        transition-delay: 0.9s;
+    }
+    .library .item:nth-child(7){
+        background-image: url(../img/hollow.jpg);
+        transition-delay: 0.9s;
+    }
+    .library .item:nth-child(8){
+        background-image: url(../img/holinemiami.jpg);
+        transition-delay: 0.9s;
+    }
+    .library .item:nth-child(9){
+        background-image: url(../img/FarCry5.jpg);
         transition-delay: 0.9s;
     }
     .des{
